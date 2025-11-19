@@ -44,9 +44,9 @@ The following Adobe products are supported by this tool:
 
 ## Unsupported Adobe Products
 
-- **Premiere Pro** (PPRO)
-
 The following Adobe products will be installed but will not be able to run because they actually require the AVX2 instruction set to run.
+
+- **Premiere Pro** (PPRO)
 
 ## How to Use
 

@@ -42,6 +42,12 @@ The following Adobe products are supported by this tool:
 - **Substance Stager** (STGR)
 - **XD** (SPRK)
 
+## Unsupported Adobe Products
+
+- **Premiere Pro** (PPRO)
+
+The following Adobe products will be installed but will not be able to run because they actually require the AVX2 instruction set to run.
+
 ## How to Use
 
 1. **Download the Tool**: Clone or download this repository to your local machine.
@@ -67,6 +73,10 @@ If you find this tool helpful, consider supporting the developer:
 
 - **Donate via PayPal**: [PayPal Donation Link](https://www.paypal.com/donate/?hosted_button_id=23A75PS9GB4Y2)
 - **Contact the Developer**: You can reach out to the developer via [LinkedIn](https://www.linkedin.com/in/marcin-grygiel/).
+
+## Screenshot
+
+<img width="626" height="713" alt="image" src="https://github.com/user-attachments/assets/09a479d7-2168-4cc1-82d6-735c2703c7a6" />
 
 ## License
 

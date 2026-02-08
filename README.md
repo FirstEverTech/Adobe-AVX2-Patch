@@ -17,7 +17,7 @@ Adobe has restricted its latest products to processors with AVX2, even though th
 
 The following Adobe products are supported by this tool:
 
-- **After Effects** (AEFT)
+- ~**After Effects** (AEFT)~
 - **Animate and Mobile Packaging** (FLPR)
 - **Audition** (AUDT)
 - **Bridge** (KBRG)
@@ -30,7 +30,7 @@ The following Adobe products are supported by this tool:
 - **InDesign** (IDSN)
 - **Lightroom** (LRCC)
 - **Lightroom Classic** (LTRM)
-- **Media Encoder** (AME)
+- ~**Media Encoder** (AME)~
 - **Photoshop** (PHSP)
 - **Prelude** (PRLD)
 - ~**Premiere Pro** (PPRO)~

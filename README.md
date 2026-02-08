@@ -33,7 +33,7 @@ The following Adobe products are supported by this tool:
 - **Media Encoder** (AME)
 - **Photoshop** (PHSP)
 - **Prelude** (PRLD)
-- **Premiere Pro** (PPRO)
+- ~**Premiere Pro** (PPRO)~
 - **Premiere Rush** (RUSH)
 - **Substance Designer** (SBSTD)
 - **Substance Modeler** (SHPR)

@@ -17,7 +17,6 @@ Adobe has restricted its latest products to processors with AVX2, even though th
 
 The following Adobe products are supported by this tool:
 
-- ~**After Effects** (AEFT)~
 - **Animate and Mobile Packaging** (FLPR)
 - **Audition** (AUDT)
 - **Bridge** (KBRG)
@@ -30,10 +29,8 @@ The following Adobe products are supported by this tool:
 - **InDesign** (IDSN)
 - **Lightroom** (LRCC)
 - **Lightroom Classic** (LTRM)
-- ~**Media Encoder** (AME)~
 - **Photoshop** (PHSP)
 - **Prelude** (PRLD)
-- ~**Premiere Pro** (PPRO)~
 - **Premiere Rush** (RUSH)
 - **Substance Designer** (SBSTD)
 - **Substance Modeler** (SHPR)
@@ -46,6 +43,8 @@ The following Adobe products are supported by this tool:
 
 The following Adobe products will be installed but will not be able to run because they actually require the AVX2 instruction set to run.
 
+- **After Effects** (AEFT)
+- **Media Encoder** (AME)
 - **Premiere Pro** (PPRO)
 
 ## How to Use

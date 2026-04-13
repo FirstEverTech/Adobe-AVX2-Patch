@@ -125,7 +125,7 @@ This tool does **not** modify any installed Adobe program files.
 | CPU | Any x64 processor with at least AVX support |
 
 > [!NOTE]
-> Standalone (offline) installers for recent Adobe versions may not be publicly listed. You can request direct download links by contacting **Adobe Customer Care via live chat**.
+> Standalone (offline) installers for recent Adobe versions may not be publicly listed. You can request direct download links by contacting **Adobe Customer Care via [live chat](https://helpx.adobe.com/contact.html?rghtup=autoOpen&clickref=1100lAdw2Tms&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=prodesigntools)**.
 
 [↑ Back to top](#top)
 

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Adobe AVX2 Patch (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Adobe AVX2 Patch (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

@@ -197,6 +197,13 @@ Contact Adobe Customer Care via live chat and request the standalone (offline) i
 **Does this work with Adobe CC app / online installer?**  
 No — this tool only works with official standalone (offline) installers.
 
+**Why is the certificate "not trusted"?**
+The FirstEver.tech certificate is self-signed. A commercial Code Signing certificate would eliminate the SmartScreen warning, but it isn't necessary here. Its SHA-256 hash is published on GitHub. The SFX executable is a convenience wrapper for end users.
+
+**Why does VirusTotal show detections for the SFX executable?**
+The SFX package (`Adobe_AVX2_Patch_v1.0.exe`) may show a small number of detections on VirusTotal — currently 2 out of 69 engines. These are **known false positives** caused by the combination of a self-extracting archive and PowerShell execution, which some generic heuristic engines flag without analyzing the actual content.
+
+
 [↑ Back to top](#top)
 
 ---

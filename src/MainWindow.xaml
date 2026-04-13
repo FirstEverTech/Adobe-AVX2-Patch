@@ -1,0 +1,120 @@
+<Window
+    x:Class="AdobeAVX2Patch.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Adobe AVX2 Patch">
+
+    <Grid Background="{ThemeResource AppBackgroundBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Image Grid.Row="0" Source="Assets/Banner.png" Stretch="UniformToFill" Margin="0,0,0,10"/>
+
+        <TextBlock Grid.Row="1" TextWrapping="Wrap" Margin="20,10,20,0" Foreground="{ThemeResource AppForegroundBrush}" FontSize="14">
+            Adobe has restricted its latest products to processors with AVX2, despite them not requiring it. The patch unlocks the installer, allowing installation on non-AVX2 CPUs without modifying any program files. It is compatible only with official Adobe standalone (offline) installers and does not support the Creative Cloud Desktop app.
+        </TextBlock>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button x:Name="RunButton"
+                    Content="Run AVX2 Patch"
+                    Width="150"
+                    Margin="10"
+                    Padding="10"
+                    Click="RunButton_Click"
+                    Background="Red"
+                    Foreground="White"
+                    FontWeight="Bold"/>
+
+            <Button x:Name="ChangeDirectoryButton"
+                    Content="Choose Folder"
+                    Width="150"
+                    Margin="10"
+                    Padding="10"
+                    Click="ChangeDirectoryButton_Click"
+                    Background="#FF0078D7"
+                    Foreground="White"
+                    FontWeight="Bold"/>
+
+            <Button x:Name="RestoreBackupButton"
+                    Content="Undo Changes"
+                    Width="150"
+                    Margin="10"
+                    Padding="10"
+                    Click="RestoreBackupButton_Click"
+                    Background="#FF0078D7"
+                    Foreground="White"
+                    FontWeight="Bold"/>
+        </StackPanel>
+
+        <Border Grid.Row="3" 
+                Background="{ThemeResource ScrollViewerBackgroundBrush}" 
+                BorderBrush="{ThemeResource ScrollViewerBorderBrush}" 
+                BorderThickness="1" 
+                Margin="20,0,20,20">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <TextBox x:Name="SummaryTextBox"
+                         IsReadOnly="True"
+                         TextWrapping="Wrap"
+                         Background="Transparent"
+                         Foreground="{ThemeResource AppForegroundBrush}"
+                         FontSize="14"
+                         PlaceholderText="1. Select the folder with Adobe's Set-up.exe file.&#x0a;2. Click the &quot;Run AVX2 Patch&quot; button.&#x0a;3. Close the app and run Set-up.exe to install."
+                         BorderThickness="0"
+                         IsHitTestVisible="False"/>
+            </ScrollViewer>
+        </Border>
+
+        <TextBlock Grid.Row="4" TextWrapping="Wrap" Margin="20,0,20,0" Foreground="{ThemeResource AppForegroundBrush}" FontSize="14" HorizontalAlignment="Center">
+            Standalone (offline) installers for new versions haven’t been publicly released. However, you can request the 2025 direct download links by contacting Adobe Customer Care via live chat.
+        </TextBlock>
+
+        <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button x:Name="GitHubButton"
+                    Content="Project on GitHub"
+                    Width="150"
+                    Margin="10"
+                    Padding="10"
+                    Click="GitHubButton_Click"
+                    Background="#FF0078D7"
+                    Foreground="White"
+                    FontWeight="Bold"/>
+
+            <Button x:Name="PayPalButton"
+                    Content="Donate via PayPal"
+                    Width="150"
+                    Margin="10"
+                    Padding="10"
+                    Click="PayPalButton_Click"
+                    Background="#FF0078D7"
+                    Foreground="White"
+                    FontWeight="Bold"/>
+
+            <Button x:Name="GetOfflineInstallerButton"
+                    Content="Request Installer"
+                    Width="150"
+                    Margin="10"
+                    Padding="10"
+                    Click="GetOfflineInstallerButton_Click"
+                    Background="#FF0078D7"
+                    Foreground="White"
+                    FontWeight="Bold"/>
+        </StackPanel>
+
+        <TextBlock Grid.Row="6" TextWrapping="Wrap" Margin="20,0,20,20" Foreground="{ThemeResource AppForegroundBrush}" FontSize="14" HorizontalAlignment="Center">
+            Even though I am not a programmer, I developed this tool in just one evening. I am currently seeking new employment opportunities in the UK. You can contact me through my <Hyperlink NavigateUri="https://www.linkedin.com/in/marcin-grygiel/" FontWeight="Bold">LinkedIn</Hyperlink>.
+        </TextBlock>
+
+        <TextBlock Grid.Row="7" Text="Adobe AVX2 Patch v1.0.0 by Marcin Grygiel" HorizontalAlignment="Center" Margin="10" Foreground="{ThemeResource AppForegroundBrush}" FontSize="12"/>
+    </Grid>
+</Window>

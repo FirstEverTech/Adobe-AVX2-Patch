@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+
+# Build output
+x64/
+x86/
+Debug/
+Release/
+ARM/
+ARM64/
+
+# WinUI / AppX packaging
+AppPackages/
+BundleArtifacts/
+_pkginfo.txt
+*.appx
+*.msix
+*.msixbundle
+*.appxbundle
+
+# NuGet
+packages/
+*.nupkg

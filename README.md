@@ -1,104 +1,263 @@
-# Adobe AVX2 Patch
+<a id="top"></a>
+# 🎨 **Adobe AVX2 Patch**
 
-[<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/668a7a53-b0bf-46d2-9d4e-61976cc85f5c" />](https://www.youtube.com/watch?v=PaJg91RZIro)
+[![Version](https://img.shields.io/badge/Version-1.0.0-red?style=flat-square)](https://github.com/FirstEverTech/Adobe-AVX2-Patch/releases)[![Windows](https://img.shields.io/badge/Windows-10%2F11-blueviolet?style=flat-square)](https://www.microsoft.com/windows)[![WinUI](https://img.shields.io/badge/WinUI-3-blueviolet?style=flat-square)](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/)[![DotNET](https://img.shields.io/badge/.NET-9.0-blueviolet?style=flat-square)](https://dotnet.microsoft.com/en-us/download/dotnet/9.0)[![Downloads](https://img.shields.io/github/downloads/FirstEverTech/Adobe-AVX2-Patch/total?style=flat-square&color=gold&label=Downloads)](https://github.com/FirstEverTech/Adobe-AVX2-Patch/releases)[![GitHub Stars](https://img.shields.io/github/stars/FirstEverTech/Adobe-AVX2-Patch?style=flat-square&color=gold&label=Stars)](https://github.com/FirstEverTech/Adobe-AVX2-Patch)  
+[![License](https://img.shields.io/badge/License-GPL--3.0-0056b3?style=flat-square)](LICENSE)[![Issues](https://img.shields.io/github/issues/FirstEverTech/Adobe-AVX2-Patch?style=flat-square&label=Issues)](https://github.com/FirstEverTech/Adobe-AVX2-Patch/issues)
 
-## Overview
+[<img width="1280" height="720" alt="Adobe AVX2 Patch Demo" src="https://github.com/user-attachments/assets/668a7a53-b0bf-46d2-9d4e-61976cc85f5c" />](https://www.youtube.com/watch?v=PaJg91RZIro)
 
-Adobe AVX2 Patch is a tool designed to modify the Adobe installer files, allowing users to install Adobe products (e.g., Photoshop 2026) on computers with processors that do not support the AVX2 instruction set (but support the older AVX). This tool works with official Adobe standalone (offline) installers.
+## 🔧 Install Adobe on Older CPUs Without AVX2
 
-Adobe has restricted its latest products to processors with AVX2, even though these products do not require AVX2 to function. This tool unlocks the installer, enabling installation on non-AVX2 CPUs without modifying any program files.
+**Adobe AVX2 Patch** is a lightweight tool that modifies Adobe standalone installer files, allowing installation of Adobe products (e.g., Photoshop 2026) on processors that support AVX but not AVX2.
 
-## Features
+Adobe has restricted its latest products to processors with AVX2 — even though these products do not actually require AVX2 to run. This tool unlocks the installer without modifying any installed program files.
 
-- **Patch Adobe Installer**: Modifies the `Application.json` files in the Adobe installer to replace AVX2 with AVX, allowing installation on older CPUs.
-- **Restore Backups**: Restores the original `Application.json` files from backups created during the patching process.
-- **User-Friendly Interface**: Simple and intuitive UI with buttons for patching, changing directories, and restoring backups.
-- **Cross-Platform**: Built using WinUI 3, ensuring compatibility with modern Windows systems.
-
-## Supported Adobe Products
-
-The following Adobe products are supported by this tool:
-
-- **Animate and Mobile Packaging** (FLPR)
-- **Audition** (AUDT)
-- **Bridge** (KBRG)
-- **Character Animator** (CHAR)
-- **Dimension** (ESHR)
-- **Dreamweaver** (DRWV)
-- **Fresco** (FRSC)
-- **Illustrator** (ILST)
-- **InCopy** (AICY)
-- **InDesign** (IDSN)
-- **Lightroom** (LRCC)
-- **Lightroom Classic** (LTRM)
-- **Photoshop** (PHSP)
-- **Prelude** (PRLD)
-- **Premiere Rush** (RUSH)
-- **Substance Designer** (SBSTD)
-- **Substance Modeler** (SHPR)
-- **Substance Painter** (SBSTP)
-- **Substance Sampler** (SBSTA)
-- **Substance Stager** (STGR)
-- **XD** (SPRK)
-
-## Unsupported Adobe Products
-
-The following Adobe products will be installed but will not be able to run because they actually require the AVX2 instruction set to run.
-
-- **After Effects** (AEFT)
-- **Media Encoder** (AME)
-- **Premiere Pro** (PPRO)
-
-## How to Use
-
-1. **Download the Tool**: Clone or download this repository to your local machine.
-2. **Run the Application**: Launch the `AdobeAVX2Patch.exe` file.
-3. **Select Directory**: Ensure the tool is running in the same directory as the Adobe `Set-up.exe` file. If not, use the "Change Directory" button to select the correct folder.
-4. **Run the Patch**: Click the "Run AVX2 Patch" button to modify the installer files.
-5. **Install Adobe Products**: After patching, run the Adobe `Set-up.exe` to install your desired Adobe products.
-6. **Restore Backups (Optional)**: If needed, you can restore the original files by clicking the "Restore Backups" button.
-
-## Requirements
-
-- **Windows 10/11**: The tool is built using WinUI 3 and requires Windows 10 or later.
-- **Adobe Standalone Installer**: The tool only works with official Adobe standalone (offline) installers.
-
-## Notes
-
-- This tool only modifies the installer files and does not alter any program files of the installed Adobe products.
-- Standalone (offline) installers for new versions of Adobe products may not be publicly available. You can request the 2025 direct download links by contacting Adobe Customer Care via live chat.
-
-## Support
-
-If you find this tool helpful, consider supporting the developer:
-
-- **Donate via PayPal**: [PayPal Donation Link](https://www.paypal.com/donate/?hosted_button_id=23A75PS9GB4Y2)
-- **Contact the Developer**: You can reach out to the developer via [LinkedIn](https://www.linkedin.com/in/marcin-grygiel/).
-
-## Screenshot
-
-<img width="626" height="713" alt="image" src="https://github.com/user-attachments/assets/09a479d7-2168-4cc1-82d6-735c2703c7a6" />
-
-## License
-
-This project is open-source and available under the **GNU General Public License v3.0 (GPL-3.0)**. 
-
-### GPL-3.0 License Summary:
-- You are free to use, modify, and distribute this software.
-- If you distribute modified versions, you must also distribute the source code under the same GPL-3.0 license.
-- This software is provided **without any warranty**.
-
-For the full license text, see the [LICENSE](LICENSE) file in this repository.
-
-## Acknowledgments
-
-- Developed by **First Ever** (Marcin Grygiel).
-- Special thanks to the WinUI 3 community for their support and resources.
-
-## Version
-
-**Adobe AVX2 Patch v1.0.0**
+⭐ If this project helped you, please click the **"Star"** button at the top of this page on GitHub.
 
 ---
 
-For more information, visit the [GitHub repository](https://github.com/FirstEver-eu/Adobe-AVX2-Patch).
+## 💼 Career Opportunity
+
+> [!TIP]
+> **I'm currently seeking new challenges where I can apply my expertise in solving complex IT infrastructure problems. If your organization struggles with system compatibility, automation, or tooling gaps – let's discuss how I can help.**
+>
+> 🔗 **Connect with me:** [linkedin.com/in/marcin-grygiel](https://linkedin.com/in/marcin-grygiel)
+
+---
+
+<a id="table_of_contents"></a>
+## 📑 **Table of Contents**
+
+1. [**Overview**](#overview)
+2. [**Features**](#features)
+3. [**Supported Adobe Products**](#supported-adobe-products)
+4. [**System Requirements**](#system-requirements)
+5. [**How to Use**](#how-to-use)
+6. [**Download Options**](#download-options)
+7. [**Building from Source**](#building-from-source)
+8. [**FAQ**](#faq)
+9. [**Contributing**](#contributing)
+10. [**License**](#license)
+11. [**Author & Contact**](#author--contact)
+12. [**Support This Project**](#support-this-project)
+
+[↑ Back to top](#top)
+
+---
+
+<a id="overview"></a>
+## 📋 **1. Overview**
+
+<img width="626" height="713" alt="Adobe AVX2 Patch Screenshot" src="https://github.com/user-attachments/assets/09a479d7-2168-4cc1-82d6-735c2703c7a6" />
+
+Adobe AVX2 Patch works with official Adobe standalone (offline) installers. It modifies the `Application.json` files inside the installer's `products\` directory — replacing the `AVX2` processor requirement with `AVX` — and creates backups of the original files before doing so.
+
+This tool does **not** modify any installed Adobe program files.
+
+[↑ Back to top](#top)
+
+---
+
+<a id="features"></a>
+## ✨ **2. Features**
+
+- **Patch Adobe Installer** — modifies `Application.json` files to replace the AVX2 requirement with AVX
+- **Automatic Backups** — creates `.bak` files before any modification
+- **Restore Backups** — one-click restoration of original files
+- **21 Adobe Products Supported** — covers most of the Adobe Creative Cloud lineup
+- **Clean WinUI 3 Interface** — modern UI with automatic light/dark mode
+- **No Admin Rights Required** — runs as a standard user
+
+[↑ Back to top](#top)
+
+---
+
+<a id="supported-adobe-products"></a>
+## 🎯 **3. Supported Adobe Products**
+
+| Product | Code | Patchable |
+|---------|------|-----------|
+| Animate and Mobile Packaging | FLPR | ✅ |
+| Audition | AUDT | ✅ |
+| Bridge | KBRG | ✅ |
+| Character Animator | CHAR | ✅ |
+| Dimension | ESHR | ✅ |
+| Dreamweaver | DRWV | ✅ |
+| Fresco | FRSC | ✅ |
+| Illustrator | ILST | ✅ |
+| InCopy | AICY | ✅ |
+| InDesign | IDSN | ✅ |
+| Lightroom | LRCC | ✅ |
+| Lightroom Classic | LTRM | ✅ |
+| Photoshop | PHSP | ✅ |
+| Prelude | PRLD | ✅ |
+| Premiere Rush | RUSH | ✅ |
+| Substance Designer | SBSTD | ✅ |
+| Substance Modeler | SHPR | ✅ |
+| Substance Painter | SBSTP | ✅ |
+| Substance Sampler | SBSTA | ✅ |
+| Substance Stager | STGR | ✅ |
+| XD | SPRK | ✅ |
+
+### ⚠️ Not Supported (actually require AVX2 to run)
+
+| Product | Code |
+|---------|------|
+| After Effects | AEFT |
+| Media Encoder | AME |
+| Premiere Pro | PPRO |
+
+[↑ Back to top](#top)
+
+---
+
+<a id="system-requirements"></a>
+## 💻 **4. System Requirements**
+
+| Requirement | Details |
+|-------------|---------|
+| OS | Windows 10 / Windows 11 (x64) |
+| Runtime | [Windows App Runtime 1.7](https://aka.ms/windowsappsdk/1.7/latest/windowsappruntimeinstall-x64.exe) — only needed if app doesn't start |
+| Installer | Adobe standalone (offline) installer |
+| CPU | Any x64 processor with at least AVX support |
+
+> [!NOTE]
+> Standalone (offline) installers for recent Adobe versions may not be publicly listed. You can request direct download links by contacting **Adobe Customer Care via live chat**.
+
+[↑ Back to top](#top)
+
+---
+
+<a id="how-to-use"></a>
+## 🚀 **5. How to Use**
+
+1. **Download** the tool from the [Releases page](https://github.com/FirstEverTech/Adobe-AVX2-Patch/releases)
+2. **Run** `Adobe_AVX2_Patch_v1.0.exe` — no installation required
+3. **Select Directory** — the tool should be pointed at the folder containing Adobe's `Set-up.exe`. Use the **"Change Directory"** button if needed
+4. **Run the Patch** — click **"Run AVX2 Patch"** to modify the installer files
+5. **Install Adobe** — run Adobe's `Set-up.exe` to install your desired products
+6. **Restore (Optional)** — click **"Restore Backups"** to revert to original files if needed
+
+[↑ Back to top](#top)
+
+---
+
+<a id="download-options"></a>
+## 📥 **6. Download Options**
+
+### Option 1: SFX Executable (Recommended)
+Download `Adobe_AVX2_Patch_v1.0.exe` from the [Releases page](https://github.com/FirstEverTech/Adobe-AVX2-Patch/releases).
+- Self-extracting, portable, no installation required
+- Extracts to `%TEMP%` and cleans up automatically on exit
+- Size: ~35 MB (compressed) / ~112 MB (extracted)
+
+### Option 2: Source Code
+Clone the repository and build with Visual Studio 2022. See [Building from Source](#building-from-source).
+
+[↑ Back to top](#top)
+
+---
+
+<a id="building-from-source"></a>
+## 🛠️ **7. Building from Source**
+
+### Requirements
+- Visual Studio 2022
+- Workload: **Desktop development with C++** + **Windows application development**
+- Windows App SDK 1.7 (installed via Visual Studio Installer)
+
+### Steps
+1. Clone this repository
+2. Open `src\Adobe AVX2 Patch.sln` in Visual Studio 2022
+3. Select `Release` / `x64` configuration
+4. Build → **Build Solution** (`Ctrl+Shift+B`)
+
+[↑ Back to top](#top)
+
+---
+
+<a id="faq"></a>
+## ❓ **8. FAQ**
+
+**Is this tool safe to use?**  
+Yes. It only modifies JSON files inside the Adobe installer package. No installed program files are touched. Original files are backed up before any change.
+
+**Will patched Adobe products run normally?**  
+Yes — for all supported products. The AVX2 restriction exists only in the installer check, not in the actual application code.
+
+**The app doesn't start after downloading.**  
+Install [Windows App Runtime 1.7](https://aka.ms/windowsappsdk/1.7/latest/windowsappruntimeinstall-x64.exe) and try again.
+
+**Where can I get the Adobe offline installer?**  
+Contact Adobe Customer Care via live chat and request the standalone (offline) installer direct download link for your product.
+
+**Does this work with Adobe CC app / online installer?**  
+No — this tool only works with official standalone (offline) installers.
+
+[↑ Back to top](#top)
+
+---
+
+<a id="contributing"></a>
+## 🤝 **9. Contributing**
+
+Contributions are welcome! Feel free to submit pull requests, report bugs, or suggest new features.
+
+- 🐛 [Report Issues](https://github.com/FirstEverTech/Adobe-AVX2-Patch/issues)
+- 💬 [Discussions](https://github.com/FirstEverTech/Adobe-AVX2-Patch/discussions)
+
+[↑ Back to top](#top)
+
+---
+
+<a id="license"></a>
+## 📄 **10. License**
+
+This project is open-source and available under the **GNU General Public License v3.0 (GPL-3.0)**.
+
+- You are free to use, modify, and distribute this software
+- Modified versions must also be distributed under GPL-3.0 with source code
+- Provided without any warranty
+
+See the [LICENSE](LICENSE) file for full details.
+
+[↑ Back to top](#top)
+
+---
+
+<a id="author--contact"></a>
+## 🧑‍💻 **11. Author & Contact**
+
+**Marcin Grygiel** aka FirstEver
+- 🌐 **Website**: [www.firstever.tech](https://www.firstever.tech)
+- 💼 **LinkedIn**: [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/)
+- 🔧 **GitHub**: [FirstEverTech](https://github.com/FirstEverTech)
+- 📧 **Contact**: [Contact Form](https://www.firstever.tech/contact)
+
+[↑ Back to top](#top)
+
+---
+
+<a id="support-this-project"></a>
+## 💖 **12. Support This Project**
+
+This project is maintained in my free time. If it helped you, consider supporting its development.
+
+[![PayPal](https://img.shields.io/badge/PayPal-Support_Development-00457C?style=for-the-badge&logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=23A75PS9GB4Y2)[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support_Work-FFDD00?style=for-the-badge&logo=buymeacoffee)](https://buymeacoffee.com/firstevertech)[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FirstEverTech)
+
+**Your support means everything!** If this project helped you, please consider:
+⭐ If this project helped you, please click the "Star" button at the top of this page on GitHub.  
+👉 [Share your feedback!](https://github.com/FirstEverTech/FirstEverTech/Adobe-AVX2-Patch/discussions)
+
+# Stargazers over time
+[![Stargazers over time](https://starchart.cc/FirstEverTech/Adobe-AVX2-Patch.svg?variant=adaptive)](https://starchart.cc/FirstEverTech/Adobe-AVX2-Patch)
+
+---
+
+<div align="center">
+
+**Note**: This tool is provided as-is. It only modifies Adobe installer files and does not circumvent any licensing or DRM. Always obtain Adobe products through official channels.
+
+</div>
+
+[↑ Back to top](#top)

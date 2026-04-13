@@ -267,6 +267,11 @@ This project is maintained in my free time. If it helped you, consider supportin
 - 👉 [Share your feedback!](https://github.com/FirstEverTech/Adobe-AVX2-Patch/discussions)
 
 ---
+<div align="center">
+<img width="480" alt="Author Photo" title="Marcin Grygiel aka FirstEver and AI" src="https://github.com/user-attachments/assets/452c8553-5059-47c6-9ff9-d73443bb6c06" />
+</div>
+
+---
 
 <div align="center">
 

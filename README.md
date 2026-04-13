@@ -50,12 +50,11 @@ Adobe has restricted its latest products to processors with AVX2 — even though
 
 <a id="overview"></a>
 ## 📋 **1. Overview**
-
-<img width="626" height="713" alt="Adobe AVX2 Patch Screenshot" src="https://github.com/user-attachments/assets/09a479d7-2168-4cc1-82d6-735c2703c7a6" />
-
 Adobe AVX2 Patch works with official Adobe standalone (offline) installers. It modifies the `Application.json` files inside the installer's `products\` directory — replacing the `AVX2` processor requirement with `AVX` — and creates backups of the original files before doing so.
 
 This tool does **not** modify any installed Adobe program files.
+
+<img width="626" height="713" alt="Adobe AVX2 Patch Screenshot" src="https://github.com/user-attachments/assets/09a479d7-2168-4cc1-82d6-735c2703c7a6" />
 
 [↑ Back to top](#top)
 
@@ -131,6 +130,7 @@ Note: These applications truly require AVX2 to run. Patching the installer will 
 > [!NOTE]
 > Standalone (offline) installers for recent Adobe versions may not be publicly listed. You can request direct download links by contacting **Adobe Customer Care via [live chat](https://helpx.adobe.com/contact.html?rghtup=autoOpen&clickref=1100lAdw2Tms&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=prodesigntools)**.
 
+  
 [↑ Back to top](#top)
 
 ---

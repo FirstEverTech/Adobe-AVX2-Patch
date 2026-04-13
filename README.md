@@ -182,25 +182,25 @@ Clone the repository and build with Visual Studio 2022. See [Building from Sourc
 <a id="faq"></a>
 ## ❓ **8. FAQ**
 
-**Is this tool safe to use?**  
+- **Is this tool safe to use?**  
 Yes. It only modifies JSON files inside the Adobe installer package. No installed program files are touched. Original files are backed up before any change.
 
-**Will patched Adobe products run normally?**  
+- **Will patched Adobe products run normally?**  
 Yes — for all supported products. The AVX2 restriction exists only in the installer check, not in the actual application code.
 
-**The app doesn't start after downloading.**  
+- **The app doesn't start after downloading.**  
 Install [Windows App Runtime 1.7](https://aka.ms/windowsappsdk/1.7/latest/windowsappruntimeinstall-x64.exe) and try again.
 
-**Where can I get the Adobe offline installer?**  
+- **Where can I get the Adobe offline installer?**  
 Contact Adobe Customer Care via live chat and request the standalone (offline) installer direct download link for your product.
 
-**Does this work with Adobe CC app / online installer?**  
+- **Does this work with Adobe CC app / online installer?**  
 No — this tool only works with official standalone (offline) installers.
 
-**Why is the certificate "not trusted"?**  
+- **Why is the certificate "not trusted"?**  
 The FirstEver.tech certificate is self-signed. A commercial Code Signing certificate would eliminate the SmartScreen warning, but it isn't necessary here. Its SHA-256 hash is published on GitHub. The SFX executable is a convenience wrapper for end users.
 
-**Why does VirusTotal show detections for the SFX executable?**  
+- **Why does VirusTotal show detections for the SFX executable?**  
 The SFX package (`Adobe_AVX2_Patch_v1.0.exe`) may show a small number of detections on VirusTotal — currently 2 out of 69 engines. These are **known false positives** caused by the self-extracting archive and "not trusted" execution, which some generic heuristic engines flag without analyzing the actual content.
 
 

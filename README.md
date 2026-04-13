@@ -12,7 +12,10 @@
 
 Adobe has restricted its latest products to processors with AVX2 — even though these products do not actually require AVX2 to run. This tool unlocks the installer without modifying any installed program files.
 
-⭐ If this project helped you, please click the **"Star"** button at the top of this page on GitHub.
+⭐ If this project helped you, please click the **"Star"** button at the top of this page on GitHub.  
+👉 [Share your feedback!](https://github.com/FirstEverTech/FirstEverTech/Adobe-AVX2-Patch/discussions)
+
+[![Stargazers over time](https://starchart.cc/FirstEverTech/Adobe-AVX2-Patch.svg?variant=adaptive)](https://starchart.cc/FirstEverTech/Adobe-AVX2-Patch)
 
 ---
 
@@ -246,11 +249,11 @@ This project is maintained in my free time. If it helped you, consider supportin
 [![PayPal](https://img.shields.io/badge/PayPal-Support_Development-00457C?style=for-the-badge&logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=23A75PS9GB4Y2)[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support_Work-FFDD00?style=for-the-badge&logo=buymeacoffee)](https://buymeacoffee.com/firstevertech)[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FirstEverTech)
 
 **Your support means everything!** If this project helped you, please consider:
-⭐ If this project helped you, please click the "Star" button at the top of this page on GitHub.  
-👉 [Share your feedback!](https://github.com/FirstEverTech/FirstEverTech/Adobe-AVX2-Patch/discussions)
-
-# Stargazers over time
-[![Stargazers over time](https://starchart.cc/FirstEverTech/Adobe-AVX2-Patch.svg?variant=adaptive)](https://starchart.cc/FirstEverTech/Adobe-AVX2-Patch)
+- If this project helped you, please give it a ⭐ "Star" on GitHub
+- Sharing with friends and colleagues
+- Reporting issues or suggesting features
+- Supporting development financially
+- 👉 [Share your feedback!](https://github.com/FirstEverTech/FirstEverTech/Adobe-AVX2-Patch/discussions)
 
 ---
 

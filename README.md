@@ -106,11 +106,13 @@ This tool does **not** modify any installed Adobe program files.
 
 ### ⚠️ Not Supported (actually require AVX2 to run)
 
-| Product | Code |
-|---------|------|
-| After Effects | AEFT |
-| Media Encoder | AME |
-| Premiere Pro | PPRO |
+| Product | Code | Patchable |
+|---------|------|-----------|
+| After Effects | AEFT | ❌ |
+| Media Encoder | AME | ❌ |
+| Premiere Pro | PPRO | ❌ |
+
+Note: These applications truly require AVX2 to run. Patching the installer will not make them work on CPUs without AVX2.
 
 [↑ Back to top](#top)
 

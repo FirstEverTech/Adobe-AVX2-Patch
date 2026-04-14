@@ -54,7 +54,7 @@ Adobe AVX2 Patch works with official Adobe standalone (offline) installers. It m
 
 This tool does **not** modify any installed Adobe program files.
 
-<img width="626" height="713" alt="Adobe AVX2 Patch Screenshot" src="https://github.com/user-attachments/assets/09a479d7-2168-4cc1-82d6-735c2703c7a6" />
+<img width="626" height="713" alt="image" src="https://github.com/user-attachments/assets/5554a456-a911-4bb8-b28a-680e07533058" />
 
 [↑ Back to top](#top)
 

@@ -139,7 +139,7 @@ Note: These applications truly require AVX2 to run. Patching the installer will 
 ## 🚀 **5. How to Use**
 
 1. **Download** the tool from the [Releases page](https://github.com/FirstEverTech/Adobe-AVX2-Patch/releases)
-2. **Run** `Adobe_AVX2_Patch_v1.0.exe` — no installation required
+2. **Run** `Adobe_AVX2_Patch_v1.0.1.exe` — no installation required
 3. **Select Directory** — the tool should be pointed at the folder containing Adobe's `Set-up.exe`. Use the **"Change Directory"** button if needed
 4. **Run the Patch** — click **"Run AVX2 Patch"** to modify the installer files
 5. **Install Adobe** — run Adobe's `Set-up.exe` to install your desired products
@@ -156,7 +156,7 @@ Note: These applications truly require AVX2 to run. Patching the installer will 
 Download `Adobe_AVX2_Patch_v1.0.exe` from the [Releases page](https://github.com/FirstEverTech/Adobe-AVX2-Patch/releases).
 - Self-extracting, portable, no installation required
 - Extracts to `%TEMP%` and cleans up automatically on exit
-- Size: ~35 MB (compressed) / ~112 MB (extracted)
+- Size: 34.7 MB (compressed) / 115 MB (extracted)
 
 ### Option 2: Source Code
 Clone the repository and build with Visual Studio 2022. See [Building from Source](#building-from-source).

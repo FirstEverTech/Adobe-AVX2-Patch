@@ -2,7 +2,7 @@
 # 🎨 **Adobe AVX2 Patch**
 
 [![Version](https://img.shields.io/badge/Version-1.0.1-red?style=flat-square)](https://github.com/FirstEverTech/Adobe-AVX2-Patch/releases)[![Windows](https://img.shields.io/badge/Windows-10%2F11-blueviolet?style=flat-square)](https://www.microsoft.com/windows)[![WinUI](https://img.shields.io/badge/WinUI-3-blueviolet?style=flat-square)](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/)[![DotNET](https://img.shields.io/badge/.NET-10.0-blueviolet?style=flat-square)](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)[![Downloads](https://img.shields.io/github/downloads/FirstEverTech/Adobe-AVX2-Patch/total?style=flat-square&color=gold&label=Downloads)](https://github.com/FirstEverTech/Adobe-AVX2-Patch/releases)[![GitHub Stars](https://img.shields.io/github/stars/FirstEverTech/Adobe-AVX2-Patch?style=flat-square&color=gold&label=Stars)](https://github.com/FirstEverTech/Adobe-AVX2-Patch)  
-[![License](https://img.shields.io/badge/License-GPL--3.0-0056b3?style=flat-square)](LICENSE)[![VirusTotal](https://img.shields.io/badge/VirusTotal-1%2F68-008631?style=flat-square)](https://www.virustotal.com/gui/file/1a1cf33e9ba6661c1b215fcfdaec30084d420ba077e16df758e54c66c68af8b4?nocache=1)[![Issues](https://img.shields.io/github/issues/FirstEverTech/Adobe-AVX2-Patch?style=flat-square&label=Issues)](https://github.com/FirstEverTech/Adobe-AVX2-Patch/issues)
+[![License](https://img.shields.io/badge/License-GPL--3.0-0056b3?style=flat-square)](LICENSE)[![VirusTotal](https://img.shields.io/badge/VirusTotal-1%2F70-008631?style=flat-square)](https://www.virustotal.com/gui/file/0bacca9c6a7c17cebff84ec51098b1cddd665523a0749c6470f60d5136d7e798?nocache=1)[![Issues](https://img.shields.io/github/issues/FirstEverTech/Adobe-AVX2-Patch?style=flat-square&label=Issues)](https://github.com/FirstEverTech/Adobe-AVX2-Patch/issues)
 
 [<img width="1280" height="720" alt="Adobe AVX2 Patch Demo" src="https://github.com/user-attachments/assets/668a7a53-b0bf-46d2-9d4e-61976cc85f5c" />](https://www.youtube.com/watch?v=PaJg91RZIro)
 
@@ -207,7 +207,6 @@ The FirstEver.tech certificate is self-signed. A commercial Code Signing certifi
 - **Why does VirusTotal show detections for the SFX executable?**  
 The SFX package (`Adobe_AVX2_Patch_v1.0.exe`) may show a small number of detections on VirusTotal — currently 1 out of 70 engines. These are **known false positives** caused by the self-extracting archive and "not trusted" execution, which some generic heuristic engines flag without analyzing the actual content.
 
-
 [↑ Back to top](#top)
 
 ---
@@ -219,6 +218,21 @@ Contributions are welcome! Feel free to submit pull requests, report bugs, or su
 
 - 🐛 [Report Issues](https://github.com/FirstEverTech/Adobe-AVX2-Patch/issues)
 - 💬 [Discussions](https://github.com/FirstEverTech/Adobe-AVX2-Patch/discussions)
+
+[↑ Back to top](#top)
+
+---
+
+<a id="legal-disclaimer"></a>
+## ⚠️ **Legal Disclaimer & Important Notice**
+
+This tool does not crack or bypass any software licensing or payment mechanisms. It is not an activator, keygen, or crack. Its sole purpose is to modify a hardware requirement check (AVX2 instruction set) within an Adobe product's installer to enable installation on older CPUs.
+
+**You must have a valid, paid license** (e.g., an active Creative Cloud subscription, a trial license, or a perpetual license) to use the Adobe software after installation. This tool does not grant you any rights to the software itself.
+
+Please ensure you obtain the Adobe installer files from a **legal source**. Using unofficial distribution channels may constitute a violation of copyright law, regardless of your license status.
+
+**The developer of this tool assumes no legal responsibility** for the user's compliance with applicable laws and regulations.
 
 [↑ Back to top](#top)
 

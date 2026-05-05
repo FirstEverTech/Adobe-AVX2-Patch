@@ -130,6 +130,8 @@ Note: These applications truly require AVX2 to run. Patching the installer will 
 > [!NOTE]
 > Standalone (offline) installers for recent Adobe versions may not be publicly listed. You can request direct download links by contacting **Adobe Customer Care via [live chat](https://helpx.adobe.com/contact.html?rghtup=autoOpen&clickref=1100lAdw2Tms&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=prodesigntools)**.
 
+**Update**  
+I realize my tutorial wasn’t perfect – Adobe doesn’t provide offline installers to regular users. In fact, only IT administrators in large organizations with special enterprise licenses can generate official offline installers via the Adobe Admin Console. For individual subscribers, even paying customers, Adobe only offers the Creative Cloud desktop app and online downloads. That said, unmodified offline installers for Adobe products can be found on various sites without much trouble - I won’t share any links myself.
   
 [↑ Back to top](#top)
 

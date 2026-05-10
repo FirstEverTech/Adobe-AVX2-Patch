@@ -264,6 +264,8 @@ See the [LICENSE](LICENSE) file for full details.
 - 🔧 **GitHub**: [FirstEverTech](https://github.com/FirstEverTech)
 - 📧 **Contact**: [Contact Form](https://www.firstever.tech/contact)
 
+<img width="600" alt="Author Photo" title="Marcin Grygiel aka FirstEver and AI" src="https://github.com/user-attachments/assets/452c8553-5059-47c6-9ff9-d73443bb6c06" />
+
 [↑ Back to top](#top)
 
 ---
@@ -283,9 +285,11 @@ This project is maintained in my free time. If it helped you, consider supportin
 - 👉 [Share your feedback!](https://github.com/FirstEverTech/Adobe-AVX2-Patch/discussions)
 
 ---
-<div align="center">
-<img width="480" alt="Author Photo" title="Marcin Grygiel aka FirstEver and AI" src="https://github.com/user-attachments/assets/452c8553-5059-47c6-9ff9-d73443bb6c06" />
-</div>
+
+<a href="https://www.firstever.tech">
+  <img width="600" alt="" title="FirstEver.tech"
+       src="https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/assets/FirstEverTech-animation.gif" />
+</a>
 
 ---
 

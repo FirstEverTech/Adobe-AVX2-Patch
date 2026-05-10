@@ -1,3 +1,22 @@
+<p align="left">
+  <a href="README.md">🇬🇧 English</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=pl&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇵🇱 Polski</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=de&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇩🇪 Deutsch</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=fr&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇫🇷 Français</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=es&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇪🇸 Español</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=pt&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇧🇷 Português</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=nl&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇳🇱 Nederlands</a>
+  <br>
+  <a href="https://translate.google.com/translate?sl=en&tl=zh-CN&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇨🇳 中文</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=ja&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇯🇵 日本語</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=ko&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇰🇷 한국어</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=it&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇮🇹 Italiano</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=tr&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇹🇷 Türkçe</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=ar&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇸🇦 العربية</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=hi&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇮🇳 हिन्दी</a> |
+  <a href="https://translate.google.com/translate?sl=en&tl=ru&u=https://github.com/FirstEverTech/Adobe-AVX2-Patch">🇷🇺 Русский</a>
+</p>
+
 <a id="top"></a>
 # 🎨 **Adobe AVX2 Patch**
 

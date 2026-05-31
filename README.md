@@ -143,14 +143,16 @@ Note: These applications truly require AVX2 to run. Patching the installer will 
 |-------------|---------|
 | OS | Windows 10 / Windows 11 (x64) |
 | Runtime | [Windows App Runtime 1.7](https://aka.ms/windowsappsdk/1.7/latest/windowsappruntimeinstall-x64.exe) — only needed if app doesn't start |
-| Installer | Adobe standalone (offline) installer |
+| Installer   | Adobe standalone (offline/unsigned) installer from enterprise deployment packages generated through the Adobe Admin Console             |
 | CPU | Any x64 processor with at least AVX support |
 
 > [!NOTE]
 > Standalone (offline) installers for recent Adobe versions may not be publicly listed. You can request direct download links by contacting **Adobe Customer Care via [live chat](https://helpx.adobe.com/contact.html?rghtup=autoOpen&clickref=1100lAdw2Tms&mv=affiliate&mv2=pz&as_camptype=&as_channel=affiliate&as_source=partnerize&as_campaign=prodesigntools)**.
 
-**Update**  
-I realize my tutorial wasn’t perfect – Adobe doesn’t provide offline installers to regular users. In fact, only IT administrators in large organizations with special enterprise licenses can generate official offline installers via the Adobe Admin Console. For individual subscribers, even paying customers, Adobe only offers the Creative Cloud desktop app and online downloads. That said, unmodified offline installers for Adobe products can be found on various sites without much trouble - I won’t share any links myself.
+> **Update**  
+> I realize my tutorial wasn't perfect – Adobe doesn't provide offline installers to regular users. In fact, only IT administrators in large organizations with special enterprise licenses can generate official offline installers via the Adobe Admin Console. For individual subscribers, even paying customers, Adobe only offers the Creative Cloud desktop app and online downloads. That said, unmodified offline installers for Adobe products can be found on various sites without much trouble - I won't share any links myself.
+>
+> ⚠️ **Important:** Some users have reported receiving offline installers directly from Adobe support — however, these installers are **digitally signed** and include integrity checks on all package files. Because this patch modifies `Application.json`, a signed installer will detect the change and show an **"Installer is corrupt"** error. This patch **only works with unsigned installers** (typically version ~6.5.0.348), such as those generated via the Adobe Admin Console for enterprise deployment. See [issue #6](https://github.com/FirstEverTech/Adobe-AVX2-Patch/issues/6) for details.
   
 [↑ Back to top](#top)
 

@@ -68,9 +68,10 @@ def x_axis_config(start: datetime, end: datetime):
 def generate(dates, repo, out):
     counts  = list(range(1, len(dates) + 1))
     owner, name = repo.split("/")
-    now     = datetime.utcnow()
+    
+    # ---------- FIX: use last star date instead of today ----------
     x_start = dates[0]
-    x_end   = now
+    x_end   = dates[-1]          # last star, not datetime.utcnow()
 
     fig, ax = plt.subplots(figsize=(10, 3.2), dpi=150)
     fig.patch.set_facecolor("none")
@@ -82,13 +83,12 @@ def generate(dates, repo, out):
     ax.plot(dates, counts, color=LINE, linewidth=2.5, zorder=3)
     ax.fill_between(dates, counts, color=LINE, alpha=0.15, zorder=2)
 
-    # 31 evenly spaced dots across the full span
+    # 31 evenly spaced dots across the full span (between first and last star)
     x31 = np.linspace(mdates.date2num(x_start), mdates.date2num(x_end), 31)
     y31 = np.interp(x31, date_nums, counts)
     ax.scatter(mdates.num2date(x31), y31, color=BLUE, s=30, zorder=4, linewidths=0)
 
     # ---------- MARGINS TO PREVENT DOTS FROM BEING CUT OFF ----------
-    # Horizontal margins: 2% on each side
     x_pad = (x_end - x_start) * 0.02
     ax.set_xlim(x_start - x_pad, x_end + x_pad)
 

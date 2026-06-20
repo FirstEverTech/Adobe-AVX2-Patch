@@ -34,7 +34,7 @@ Adobe has restricted its latest products to processors with AVX2 — even though
 ⭐ If this project helped you, please click the **"Star"** button at the top of this page on GitHub.  
 👉 [Share your feedback!](https://github.com/FirstEverTech/FirstEverTech/Adobe-AVX2-Patch/discussions)
 
-[![Stargazers over time](https://starchart.cc/FirstEverTech/Adobe-AVX2-Patch.svg?variant=adaptive)](https://github.com/FirstEverTech/Adobe-AVX2-Patch/discussions)
+![Star History](assets/star-history.svg)
 
 ---
 

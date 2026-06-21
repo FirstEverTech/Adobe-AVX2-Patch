@@ -41,9 +41,10 @@ Adobe has restricted its latest products to processors with AVX2 — even though
 ## 💼 Career Opportunity
 
 > [!TIP]
-> **I'm currently seeking new challenges where I can apply my expertise in solving complex IT infrastructure problems. If your organization struggles with system compatibility, automation, or tooling gaps – let's discuss how I can help.**
+> **I specialize in Windows deployment, driver automation, hardware compatibility, Microsoft technologies, infrastructure analysis, and custom IT tooling. If your organization faces automation, deployment, device management, or wireless driver management challenges, let's discuss how I can help.**
 >
-> 🔗 **Connect with me:** [linkedin.com/in/marcin-grygiel](https://linkedin.com/in/marcin-grygiel)
+> 🔗 **Business Contact:** [firstever.tech/contact](https://www.firstever.tech/contact)
+> 🔗 **LinkedIn Profile:** [linkedin.com/in/marcin-grygiel](https://linkedin.com/in/marcin-grygiel)
 
 ---
 

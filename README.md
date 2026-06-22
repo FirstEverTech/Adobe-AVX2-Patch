@@ -30,18 +30,36 @@
 **Adobe AVX2 Patch** is a lightweight tool that modifies Adobe standalone installer files, allowing installation of Adobe products (e.g., Photoshop 2026) on processors that support AVX but not AVX2.
 
 Adobe has restricted its latest products to processors with AVX2 — even though these products do not actually require AVX2 to run. This tool unlocks the installer without modifying any installed program files.
-
-⭐ If this project helped you, please click the **"Star"** button at the top of this page on GitHub.  
+  
 👉 [Share your feedback!](https://github.com/FirstEverTech/FirstEverTech/Adobe-AVX2-Patch/discussions)
 
-![Star History](assets/star-history.svg)
-
 ---
+
+## 💖 Support This Project
+
+**Adobe AVX2 Patch* is free and open-source — maintained by a single developer.  
+
+[![Patreon](https://img.shields.io/badge/Patreon-Patron-F96854?style=for-the-badge&logo=patreon)](https://www.patreon.com/FirstEverTech)[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FirstEverTech)[![PayPal](https://img.shields.io/badge/PayPal-Donate-00457C?style=for-the-badge&logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=48VGDSCNJAPTJ)[![Buy Me a Coffee](https://img.shields.io/badge/Coffee-Donate-FFDD00?style=for-the-badge&logo=buymeacoffee)](https://buymeacoffee.com/firstevertech)[![Ko-fi](https://img.shields.io/badge/Ko--fi-Donate-FF5E5B?style=for-the-badge&logo=kofi)](https://ko-fi.com/firstever)
+
+If this tool saved you time, improved device identification, or helped keep older hardware running — consider supporting development. 🎯 **[Follow on Patreon for free](https://www.patreon.com/FirstEverTech)** — stay updated on new releases and development progress.  
+
+## 🏢 Sponsors
+*No sponsors yet — [be the first and add your company ad!](https://www.patreon.com/FirstEverTech)*
+
+## ❤️ Supporters
+
+<!-- SUPPORTERS_START -->
+<!-- SUPPORTERS_END -->
+
+## ⭐ Stars
+If this project helped you, please click the "Star" button at the top of this page on GitHub.  
+
+![Star History](assets/star-history.svg)
 
 ## 💼 Career Opportunity
 
 > [!TIP]
-> **I specialize in Windows deployment, driver automation, hardware compatibility, Microsoft technologies, infrastructure analysis, and custom IT tooling. If your organization faces automation, deployment, device management, or wireless driver management challenges, let's discuss how I can help.**
+> **I specialize in Windows deployment, driver automation, hardware compatibility, Microsoft technologies, infrastructure analysis, and custom IT tooling. If your organization faces automation, deployment, device management, or driver management challenges, let's discuss how I can help.**
 >
 > 🔗 **Business Contact:** [firstever.tech/contact](https://www.firstever.tech/contact)
 > 🔗 **LinkedIn Profile:** [linkedin.com/in/marcin-grygiel](https://linkedin.com/in/marcin-grygiel)
@@ -62,7 +80,6 @@ Adobe has restricted its latest products to processors with AVX2 — even though
 9. [**Contributing**](#contributing)
 10. [**License**](#license)
 11. [**Author & Contact**](#author--contact)
-12. [**Support This Project**](#support-this-project)
 
 [↑ Back to top](#top)
 
@@ -277,48 +294,25 @@ See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-<a id="author--contact"></a>
+<a id="author-and-contact"></a>
 ## 🧑‍💻 **11. Author & Contact**
-
-**Marcin Grygiel** aka FirstEver
-- 🌐 **Website**: [www.firstever.tech](https://www.firstever.tech)
-- 💼 **LinkedIn**: [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/)
-- 🔧 **GitHub**: [FirstEverTech](https://github.com/FirstEverTech)
-- 📧 **Contact**: [Contact Form](https://www.firstever.tech/contact)
-
-<img width="600" alt="Author Photo" title="Marcin Grygiel aka FirstEver and AI" src="https://github.com/user-attachments/assets/452c8553-5059-47c6-9ff9-d73443bb6c06" />
-
-[↑ Back to top](#top)
-
----
-
-<a id="support-this-project"></a>
-## 💖 **12. Support This Project**
-
-This project is maintained in my free time. If it helped you, consider supporting its development.
-
-[![PayPal](https://img.shields.io/badge/PayPal-Support_Development-00457C?style=for-the-badge&logo=paypal)](https://www.paypal.com/donate/?hosted_button_id=23A75PS9GB4Y2)[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Support_Work-FFDD00?style=for-the-badge&logo=buymeacoffee)](https://buymeacoffee.com/firstevertech)[![GitHub Sponsors](https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors)](https://github.com/sponsors/FirstEverTech)
-
-**Your support means everything!** If this project helped you, please consider:
-- If this project helped you, please give it a ⭐ "Star" on GitHub
-- Sharing with friends and colleagues
-- Reporting issues or suggesting features
-- Supporting development financially
-- 👉 [Share your feedback!](https://github.com/FirstEverTech/Adobe-AVX2-Patch/discussions)
-
----
 
 <a href="https://www.firstever.tech">
   <img width="600" alt="" title="FirstEver.tech"
        src="https://github.com/FirstEverTech/Universal-Intel-Chipset-Updater/blob/main/assets/FirstEverTech-animation.gif" />
-</a>
+</a>  
+
+<img width="600" alt="Author Photo" title="Marcin Grygiel aka FirstEver and AI" src="https://github.com/user-attachments/assets/452c8553-5059-47c6-9ff9-d73443bb6c06" />  
+
+### **Marcin Grygiel** aka FirstEver
+
+- 🌐 **Website**: [www.firstever.tech](https://www.firstever.tech)
+- 💼 **LinkedIn**: [Marcin Grygiel](https://www.linkedin.com/in/marcin-grygiel/)
+- 🔧 **GitHub**: [FirstEverTech](https://github.com/FirstEverTech)
+- 📧 **Contact**: [Contact Form](https://www.firstever.tech/contact)  
 
 ---
 
-<div align="center">
-
-**Note**: This tool is provided as-is. It only modifies Adobe installer files and does not circumvent any licensing or DRM. Always obtain Adobe products through official channels.
-
-</div>
+**Note**: This tool is provided as-is for educational and convenience purposes. While we strive for accuracy, always verify critical INF updates through official channels. The complete HWID database is available for transparency and community contributions.
 
 [↑ Back to top](#top)

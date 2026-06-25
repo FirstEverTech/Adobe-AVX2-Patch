@@ -118,9 +118,7 @@ This tool does **not** modify any installed Adobe program files.
 | Product | Code | Patchable |
 |---------|------|-----------|
 | Animate and Mobile Packaging | FLPR | ✅ |
-| Audition | AUDT | ✅* |
 | Bridge | KBRG | ✅ |
-| Character Animator | CHAR | ✅* |
 | Dimension | ESHR | ✅ |
 | Dreamweaver | DRWV | ✅ |
 | Fresco | FRSC | ✅ |
@@ -130,8 +128,6 @@ This tool does **not** modify any installed Adobe program files.
 | Lightroom | LRCC | ✅ |
 | Lightroom Classic | LTRM | ✅ |
 | Photoshop | PHSP | ✅ |
-| Prelude | PRLD | ✅* |
-| Premiere Rush | RUSH | ✅* |
 | Substance Designer | SBSTD | ✅ |
 | Substance Modeler | SHPR | ✅ |
 | Substance Painter | SBSTP | ✅ |
@@ -139,17 +135,21 @@ This tool does **not** modify any installed Adobe program files.
 | Substance Stager | STGR | ✅ |
 | XD | SPRK | ✅ |
 
-`*` — Indicates that the program successfully passes the installer check after patching. If it runs unstable or doesn't launch at all after installation, please report it in [Issues](https://github.com/FirstEverTech/Adobe-AVX2-Patch/issues). This applies especially to video editing applications (Audition, Premiere Rush, Character Animator, Prelude) – their functionality is not guaranteed.
-
 ### ⚠️ Not Supported (actually require AVX2 to run)
 
 | Product | Code | Patchable |
 |---------|------|-----------|
+| Audition | AUDT | ❌ |
 | After Effects | AEFT | ❌ |
+| Character Animator | CHAR | * |
 | Media Encoder | AME | ❌ |
+| Prelude | PRLD | * |
 | Premiere Pro | PPRO | ❌ |
+| Premiere Rush | RUSH | * |
 
 Note: These applications truly require AVX2 to run. Patching the installer will not make them work on CPUs without AVX2.
+
+`*` — Indicates that the program successfully passes the installer check after patching. If it runs unstable or doesn't launch at all after installation, please report it in [Issues](https://github.com/FirstEverTech/Adobe-AVX2-Patch/issues). This applies especially to video editing applications (Audition, Premiere Rush, Character Animator, Prelude) – their functionality is not guaranteed.
 
 [↑ Back to top](#top)
 

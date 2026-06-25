@@ -149,7 +149,7 @@ This tool does **not** modify any installed Adobe program files.
 
 Note: These applications truly require AVX2 to run. Patching the installer will not make them work on CPUs without AVX2.
 
-`*` — Indicates that the program successfully passes the installer check after patching. If it runs unstable or doesn't launch at all after installation (error 0xc0000142), please report it in [Issues](https://github.com/FirstEverTech/Adobe-AVX2-Patch/issues). This applies especially to video editing applications (Audition, Premiere Rush, Character Animator, Prelude) – their functionality is not guaranteed.
+`*` — Indicates that the program successfully passes the installer check after patching. If it runs unstable or doesn't launch at all after installation ([error 0xc0000142](https://community.adobe.com/bug-reports-528/every-time-i-launch-the-application-i-get-the-error-code-0xc0000142-windows-11-1216219)), please report it in [Issues](https://github.com/FirstEverTech/Adobe-AVX2-Patch/issues). This applies especially to video editing applications (Audition, Premiere Rush, Character Animator, Prelude) – their functionality is not guaranteed.
 
 [↑ Back to top](#top)
 

@@ -115,7 +115,7 @@ This tool does **not** modify any installed Adobe program files.
 <a id="supported-adobe-products"></a>
 ## 🎯 **3. Supported Adobe Products**
 
-| Product | Code | Patchable |
+| Product | Code | Does it work? |
 |---------|------|-----------|
 | Animate and Mobile Packaging | FLPR | ✅ |
 | Bridge | KBRG | ✅ |
@@ -137,15 +137,15 @@ This tool does **not** modify any installed Adobe program files.
 
 ### ⚠️ Not Supported (actually require AVX2 to run)
 
-| Product | Code | Patchable |
+| Product | Code | Does it work? |
 |---------|------|-----------|
 | Audition | AUDT | ❌ |
 | After Effects | AEFT | ❌ |
-| Character Animator | CHAR | * |
+| Character Animator | CHAR | No data * |
 | Media Encoder | AME | ❌ |
-| Prelude | PRLD | * |
+| Prelude | PRLD | No data * |
 | Premiere Pro | PPRO | ❌ |
-| Premiere Rush | RUSH | * |
+| Premiere Rush | RUSH | No data * |
 
 Note: These applications truly require AVX2 to run. Patching the installer will not make them work on CPUs without AVX2.
 

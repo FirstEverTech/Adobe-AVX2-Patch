@@ -55,7 +55,7 @@ If this tool saved you time, improved device identification, or helped keep olde
 ## ⭐ Stars
 If this project helped you, please click the "Star" button at the top of this page on GitHub.  
 
-![Star History](assets/star-history.svg)
+![Star History](assets/stars-graph.svg)
 
 ## 💼 Career Opportunity
 

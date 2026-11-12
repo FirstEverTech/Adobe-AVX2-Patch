@@ -27,7 +27,7 @@
 
 ## 🔧 Install Adobe on Older CPUs Without AVX2
 
-**Adobe AVX2 Patch** is a lightweight tool that modifies Adobe standalone installer files, allowing installation of Adobe products (e.g., Photoshop 2026) on processors that support AVX but not AVX2.
+**Adobe AVX2 Patch** is a lightweight tool that modifies Adobe standalone installer files, allowing installation of Adobe products (e.g., Photoshop 2026 or 2027) on processors that support AVX but not AVX2.
 
 Adobe has restricted its latest products to processors with AVX2 — even though these products do not actually require AVX2 to run. This tool unlocks the installer without modifying any installed program files.
   
